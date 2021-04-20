@@ -1,0 +1,11 @@
+2021-04-18T21:44:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\thandeka\wp-content\plugins\elementskit-lite\modules\library\manager\api.php:68
+Stack trace:
+#0 C:\xampp\htdocs\thandeka\wp-includes\class-wp-hook.php(292): ElementsKit_Lite\Modules\Library\Manager\Api->get_layouts('')
+#1 C:\xampp\htdocs\thandeka\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\thandeka\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\thandeka\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\xampp\htdocs\thandeka\wp-content\plugins\elementskit-lite\modules\library\manager\api.php on line 68
+
+2021-04-18T21:56:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\thandeka\wp-includes\Requests\Exception.php on line 36
+
